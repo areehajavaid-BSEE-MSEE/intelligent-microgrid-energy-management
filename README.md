@@ -78,6 +78,12 @@ The current Simulink simulation displayed approximately **17.8 kWh of cumulative
 
 This value represents the current model output and should be interpreted in the context of the implemented controller, input profiles, and discrete-time integration settings.
 
+## Simulink Model
+
+The following figure shows the Simulink model developed for the intelligent microgrid energy management system.
+
+![Intelligent Microgrid Simulink Model](results/Simulink%20model.PNG)
+
 ### Solar Generation
 ![Solar Generation](results/Solar%20generation.PNG)
 

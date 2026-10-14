@@ -109,6 +109,21 @@ The following figure shows the Simulink model developed for the intelligent micr
 
 The scripts can also be run individually for their respective analyses. Run the required setup scripts first when a script depends on variables created by another script.
 
+## Simulink Model Description
+
+The Simulink model represents an intelligent energy management system for a renewable-energy microgrid.
+
+* **Solar Generation:** Provides the solar power input to the system.
+* **Load Demand:** Represents the electricity required by the connected load.
+* **Power Balance:** Calculates the difference between solar generation and load demand.
+* **Energy Management Controller:** Determines when the battery should charge or discharge and calculates the required grid power.
+* **Battery Management:** Tracks the battery's state of charge (SOC) and applies minimum and maximum SOC limits.
+* **Grid Import:** Calculates the additional electricity required from the grid when solar generation and battery discharge cannot meet the load.
+* **Cumulative Grid Energy:** Tracks the total energy imported from the grid during the simulation.
+
+The model helps analyze how solar generation, battery storage, and grid electricity work together to meet the load demand.
+
+
 ## Future Improvements
 
 * Implement battery SOC feedback using a discrete-time controller.

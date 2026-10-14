@@ -79,7 +79,8 @@ The current Simulink simulation displayed approximately **17.8 kWh of cumulative
 This value represents the current model output and should be interpreted in the context of the implemented controller, input profiles, and discrete-time integration settings.
 
 ### Solar Generation
-![Solar Generation](results/Solar_generation.PNG)
+![Solar Generation](results/Solar%20generation.PNG)
+
 
 ### Load Demand
 ![Load Demand](results/Load_demand.PNG)

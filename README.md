@@ -83,13 +83,13 @@ This value represents the current model output and should be interpreted in the 
 
 
 ### Load Demand
-![Load Demand](results/Load_demand.PNG)
+![Load Demand](results/Load%20demand.PNG)
 
 ### Battery State of Charge
-![Battery SOC](results/Battery_SOC.PNG)
+![Battery SOC](results/Battery%20SOC.PNG)
 
 ### Cumulative Grid Energy
-![Cumulative Grid Energy](results/Cumulative_grid_energy.PNG)
+![Cumulative Grid Energy](results/Cumulative%20grid%20energy.PNG)
 
 ## How to Run the Project
 
